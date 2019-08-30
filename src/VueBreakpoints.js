@@ -69,7 +69,7 @@ export default class VueBreakpoints extends Vue {
 
   /** @private */
   updateBreakpoint () {
-    let width = window.innerWidth
+    let width = window.outerWidth
     if (this.options.useRem) {
       width /= this.remSize
     }
