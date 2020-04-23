@@ -1,6 +1,6 @@
 {
   "name": "@apility/vue-breakpoints",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "scripts": {
     "build": "webpack --mode=production",
     "lint": "eslint src/**/*.js"
