@@ -2,7 +2,7 @@ const { resolve } = require('path')
 
 module.exports = {
   entry: [
-    '@babel/polyfill',
+    '@babel/polyfill/noConflict',
     './src/index.js',
   ],
 
